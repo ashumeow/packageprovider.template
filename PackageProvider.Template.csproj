@@ -7,8 +7,8 @@
     <ProjectGuid>{26CC7D7C-A1BC-4A11-9DC9-FB18904CA937}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Template.PackageProvider</RootNamespace>
-    <AssemblyName>Template.PackageProvider</AssemblyName>
+    <RootNamespace>OneGet.PackageProvider.Template</RootNamespace>
+    <AssemblyName>OneGet.PackageProvider.Template</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <SolutionPath Condition="$(SolutionPath) == '' Or $(SolutionPath) == '*Undefined*'">$(SolutionDir)\OneGet.sln</SolutionPath>
