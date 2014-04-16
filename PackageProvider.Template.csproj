@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Utility\CallbackAPIDeclarations.cs" />
+    <Compile Include="Utility\CallbackExtensions.cs" />
+    <Compile Include="Utility\Request.cs" />
     <Compile Include="SamplePackageProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
