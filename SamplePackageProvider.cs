@@ -124,7 +124,6 @@ namespace OneGet.PackageProvider.Template {
                 // use the request object to interact with the OneGet core:
                 request.Debug("Information","Calling 'Initialize'" );
             }
-
         }
         public bool InstallPackageByFastpath(string fastPath, Callback c){
              // TODO: Fill in implementation
