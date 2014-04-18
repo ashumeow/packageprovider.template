@@ -10,8 +10,8 @@
     <RootNamespace>OneGet.PackageProvider.Template</RootNamespace>
     <AssemblyName>OneGet.PackageProvider.Template</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
-    <SolutionPath Condition="$(SolutionPath) == '' Or $(SolutionPath) == '*Undefined*'">$(SolutionDir)\OneGet.sln</SolutionPath>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">.\</SolutionDir>
+    <SolutionPath Condition="$(SolutionPath) == '' Or $(SolutionPath) == '*Undefined*'">$(SolutionDir)\PackageProvider.sln</SolutionPath>
     <RestorePackages>true</RestorePackages>
   </PropertyGroup>
   <Import Project="$(SolutionPath).props" Condition="Exists('$(SolutionPath).props')" />
